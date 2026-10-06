@@ -4,7 +4,8 @@
   "description": "Projet support du TD « Automatiser un projet avec GitHub ».",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint:html": "html-validate index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Thomaslgrn/b3-versioning/issues"
   },
-  "homepage": "https://github.com/Thomaslgrn/b3-versioning#readme"
+  "homepage": "https://github.com/Thomaslgrn/b3-versioning#readme",
+  "devDependencies": {
+    "html-validate": "^11.16.2"
+  }
 }
