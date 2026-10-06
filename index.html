@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>B3 Versioning</title>
+    <script>
+      window.sentryOnLoad = function () {
+        Sentry.init({ release: "b3-versioning@1.2.0", environment: "dev" });
+      };
+    </script>
+    <script
+      src="https://js-de.sentry-cdn.com/VOTRE_CLE.min.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -20,6 +29,7 @@
         <input type="password" id="password" name="password" autocomplete="current-password" required />
 
         <button type="submit">Se connecter</button>
+        <button type="button" onclick="myUndefinedFunction()">Tester Sentry</button>
       </form>
     </main>
 
