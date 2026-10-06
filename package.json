@@ -1,0 +1,19 @@
+{
+  "name": "b3-versioning",
+  "version": "1.0.0",
+  "description": "Projet support du TD « Automatiser un projet avec GitHub ».",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomaslgrn/b3-versioning.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Thomaslgrn/b3-versioning/issues"
+  },
+  "homepage": "https://github.com/Thomaslgrn/b3-versioning#readme"
+}
